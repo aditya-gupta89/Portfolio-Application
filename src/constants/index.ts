@@ -33,8 +33,8 @@ export const portfolioProjects = [
 
     description:
       "Personal portfolio website showcasing projects and skills related to web technologies, developed responsively with modern tools like Next.js, Tailwind CSS and Framer Motion.",
-    link: "https://youtu.be/7hi5zwO75yc",
-    sourceCode:'https://github.com/aditya-gupta89/map-expo',
+    link: "https://www.adityadev.cloud/",
+    sourceCode:'https://github.com/aditya-gupta89/Portfolio-Application',
     image: project2,
   },
   {
