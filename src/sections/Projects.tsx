@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
                     </a>
                   </div>
                 </div>
-                <div className="relative">
+                <div className="relative mb-2">
                   <Image
                     src={project.image}
                     alt={project.title}

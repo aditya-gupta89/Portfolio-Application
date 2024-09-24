@@ -17,12 +17,12 @@ const CardHeader = ({
     <div className={twMerge("flex flex-col p-6 md:py-8 md:px-10", className)}>
       <div className="inline-flex items-center gap-4">
         <StartIcon className="size-9 text-emerald-300" />
-        <h3 className="font-serif text-3xl">{title}</h3>
+        <h3 className="font-serif text-lg  lg:text-3xl">{title}</h3>
         {isResume &&<a
           type="button"
           href="https://drive.google.com/file/d/1v7kj0aW3xWeIiYelcl3mkMk6aYqWJJpS/view?usp=sharing"
           target="_blank"
-          className="text-white cursor-pointer flex gap-2 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-2 text-center "
+          className="text-white items-center cursor-pointer flex gap-2 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-[12px] px-1.5 py-1.5 lg:px-2 lg:py-2 text-center "
         >
           {" "}
           Download CV
