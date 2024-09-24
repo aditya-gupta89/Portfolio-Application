@@ -38,14 +38,14 @@ export const ProjectsSection = () => {
                   <div className="flex gap-2">
                     <a href={project.link}>
                       {" "}
-                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto text-[13px] md:text-md px-3 md:px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                         <span>View Live Site</span>
                         <ArrowUpRight className="size-4" />
                       </button>
                     </a>
                     <a href={project.sourceCode}>
                       {" "}
-                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto text-[13px] md:text-md px-3 md:px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                         <span>Source Code</span>
                         <ArrowUpRight className="size-4" />
                       </button>
