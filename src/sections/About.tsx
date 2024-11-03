@@ -9,15 +9,14 @@ import CardHeader from "@/components/CardHeader";
 import ToolBoxItem from "@/components/ToolBoxItem";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import {hobbies} from  "../constants"
-import {toolboxItems1} from  "../constants"
-import {toolboxItems} from  "../constants"
-
+import { hobbies } from "../constants";
+import { toolboxItems1 } from "../constants";
+import { toolboxItems } from "../constants";
 
 export const AboutSection = () => {
   const constraintRef = useRef(null);
   return (
-    <div id='about' className="py-20">
+    <div id="about" className="py-20">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
@@ -34,7 +33,7 @@ export const AboutSection = () => {
                 isResume={true}
                 className="px-6 pt-6"
               />
-             
+
               <ToolBoxItem items={toolboxItems} className="mt-6 px-10" />
               <ToolBoxItem items={toolboxItems1} className="mt-6 px-10" />
             </Card>
@@ -68,6 +67,7 @@ export const AboutSection = () => {
                 className="w-full h-full size-6 object-cover object-left-top"
                 src={MapImage}
                 alt="map"
+                onClick={() => navigator.vibrate(200)}
               />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full  after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:outline-offset-2 after:rounded-full after:outline-gray-950/30 ">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-40 animate-ping [animation-duration:2s] ">
